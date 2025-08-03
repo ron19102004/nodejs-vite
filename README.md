@@ -1,0 +1,34 @@
+1. Nodejs - ExpressJs
+	- npm: expressjs , dotenv, cors, vite-plugin-node
+	- create project
+		- config
+			- .gitignore
+			- .env
+			- .env.example
+			- .editorconfig
+	- [vite-plugin-node](https://www.npmjs.com/package/vite-plugin-node): cấu hình thay thế nodemon + tăng tốc build và phát triển
+	- create server by expressjs
+		- config
+			- allow send request by json 
+			- cors
+	- http method => CRUD
+		- post
+		- get
+		- put
+		- delete
+		- patch
+	- divide folder:
+		- routes
+		- controller
+		- middleware
+		- configs
+		- services
+		- models/entities
+    - utils
+	- test api with POSTMAN
+	- connect with database
+		- [sequelize](https://sequelize.org/docs/v6/getting-started/) : use with JS
+		- [typeorm](https://typeorm.io/docs/getting-started): use with TS
+	- authentication/authorization
+		- create middleware
+		- auth with JWT
